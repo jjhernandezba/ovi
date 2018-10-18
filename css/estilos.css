@@ -1,0 +1,77 @@
+#Contenedor #Pos_Relativo{
+  position: relative;
+  left: 0px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+  bottom: 0px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
+  /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
+}
+#Contenedor #Pos_Relativo2{
+  /*background: rgb(0, 92, 247);*/
+  position: relative;
+  top: -230px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+  right: -50px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+
+  /*bottom: 0px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
+  /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
+}
+#Contenedor #Pos_Relativo3{
+  color: rgb(255,255,255);
+  position: relative;
+  top: -290px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+  right: -250px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+
+  /*bottom: 0px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
+  /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
+}
+
+
+#Contenedor #Pos_Absoluto{
+  /*background: rgb(255, 0, 0);*/
+  position: absolute;
+  left: 0px;/*DESPLAZO 265 PIXELES DESDE SU POSICIÓN ORIGINAL*/
+  right: -1000px;
+  width: -250px;/*LE ASIGNO EL ANCHO*/
+  margin: 0px; /*QUITO EL MARGIN QUE ESTA HEREDANDO PARA QUE SE VEA MAS CLARO QUE EL ELEMENOT NO OCUPA ESPACIOS
+  SE PUEDE MOVER LIBREMENTE EN LA PAGINA SIN OCUPAR ESPACIO*/
+
+  /*POSICIÓN ABSOLUTA: POSICIONA SIN OCUPAR ESPACIOS EN EL DOCUMENTOS, POR LO QUE AL DESPLAZARLO
+  NO VAN A DEJAR ESPACIOS EN BLACO*/
+}
+
+
+#Contenedor #Pos_Fijo{
+  position: fixed;
+  left: 600px;/*DESPLAZO 600 PIXELES DESDE SU POSICIÓN ORIGINAL*/
+  bottom: 160px;/*DESPLAZO 160 PIXELES HACIA ARRIBA*/
+  width: 250px;/*LE ASIGNO EL ANCHO*/
+  margin: 0px; /*QUITO EL MARGIN QUE ESTA HEREDANDO PARA QUE SE VEA MAS CLARO QUE EL ELEMENOT NO OCUPA ESPACIOS
+
+  /*ES UN POSICIONAMIENTO FIJO QUE ME MANTIENE EL ELEMENTO EN PANTALLA EN LA UBICACIÓN ASIGNADA
+  ASÍ SUBA O BAJE CON EL CURSOR EL ELEMENTO SIEMPRE SE MANTENTRÁ EN SU POSICIÓN*/
+}
+#menu-principal{
+  position: relative;
+  top: -210px;
+}
+#Contenedor1{
+  width: 920px;
+  position: relative;
+  top: -220px;
+  color: rgb(255, 255, 255);
+  background: url("../img/FondoCompleto.jpeg");/*ASIGNO FONDO CON LA PROPIEDAD FIXED PARA QUE ESTE PERMANEZCA SIEMPRE EN PANTALLA*/
+}
+section >h1{
+  font-size: 25px;
+}
+footer{
+  position: relative;
+  top: -700px;
+  width: 1400px;
+  background: url("../img/FondoCompleto.jpeg");
+  color: rgb(255, 255, 255);
+}
+#Barralateral{
+position: relative;
+left: 925px;
+bottom: 700px;
+width: 480px;
+}
