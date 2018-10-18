@@ -598,14 +598,15 @@ section
 }
 .logo_text_not_ie
 {
-    background-image: -webkit-linear-gradient(left, #4867c0, #329fec); /* For Chrome and Safari */
+    background-image: -webkit-linear-gradient(left, #fcfcfc, #d3dde3); /* For Chrome and Safari */
     background-image: -moz-linear-gradient(left, #4867c0, #329fec); /* For old Fx (3.6 to 15) */
     background-image: -ms-linear-gradient(left, #4867c0, #329fec); /* For pre-releases of IE 10*/
     background-image: -o-linear-gradient(left, #4867c0, #329fec); /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #4867c0, #329fec); /* Standard syntax; must be last */
+    background-image: linear-gradient(to right, #fcfcfc, #d3dde3); /* Standard syntax; must be last */
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    
 }
 .logo_sub
 {
