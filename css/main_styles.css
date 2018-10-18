@@ -1269,8 +1269,7 @@ section
 .footer_extra_content
 {
     width: 100%;
-    background: url(../img/lineafooter.png)
-    /*height: 134px;*/
+   height: 25px;
 }
 .footer_social_title
 {
@@ -1341,7 +1340,7 @@ section
 {
     font-size: 12px;
     font-weight: 500;
-    color: #1566ae;
+    color: #ffffff;
     margin-top: 7px;
     margin-right: 60px;
 }
