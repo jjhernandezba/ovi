@@ -745,6 +745,132 @@ section
 {
     color: #FFFFFF;
 }
+
+
+.main_nav > li
+{
+    float:left;
+
+}
+
+.main_nav li ul
+{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+   
+}
+
+.main_nav li:hover > ul
+{
+    display:block;
+   
+}
+.nav_sub
+{
+    /*background: #f3f7f9;*/
+   
+}
+
+
+.nav_sub li a
+{
+    display: block;
+    position: relative;
+    height: 100%;
+    line-height: 82px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c4c4c;
+    padding-left: 11px;
+    padding-right: 8px;
+    z-index: 1;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+     background-color: #f3f7f9;
+}
+
+
+
+
+
+.nav_sub li::after
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #4867c0;
+    background-image: linear-gradient(to right, #4867c0, #329fec);
+    background: #4867c0;
+    background: linear-gradient(to right, #4867c0, #329fec);
+    opacity: 0;
+    z-index: 0;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.nav_sub li:not(:last-child)
+{
+    margin-right: 26px;
+}
+.nav_sub li:hover::after,
+.nav_sub li.active::after
+{
+    opacity: 1;
+}
+
+.nav_sub li a:hover,
+.nav_sub li.active a
+{
+    color: #FFFFFF;
+    background-color: #4867c0;
+    background-image: linear-gradient(to right, #4867c0, #329fec);
+    background: #4867c0;
+    background: linear-gradient(to right, #4867c0, #329fec);
+}
+.nav_sub li:hover,
+.nav_sub.active a
+{
+    color: #FFFFFF;
+    background-color: #4867c0;
+    background-image: linear-gradient(to right, #4867c0, #329fec);
+    background: #4867c0;
+    background: linear-gradient(to right, #4867c0, #329fec);
+}
+
+.nav_sub li:hover::after,
+.nav_sub li.active::after
+{
+    opacity: 1;
+}
+
+.nav_sub li.active a {
+    color: #FFFFFF!important;
+}
+.nav_sub li a {
+   color: #4c4c4c!important;
+}
+
+
+.nav_sub li a:hover,
+.nav_sub li.active a
+{
+    color: #FFFFFF!important;
+    background-color: #4867c0;
+    background-image: linear-gradient(to right, #4867c0, #329fec);
+    background: #4867c0;
+    background: linear-gradient(to right, #4867c0, #329fec);
+}
+
 .search_container
 {
     position: absolute;
