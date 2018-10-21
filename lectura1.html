@@ -6,181 +6,222 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Conference project">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Grupo 301122_40 "><!--DEFINIR DERECHOS DE AUTOR O PROPIETARIOS!-->
+        <meta name="keywords" content="programacion,web,php,sql"><!--DEFINIR LAS PALABRAS CLAVE QUE SIRVEN PARA IDENFICAR NUESTRO SITIO WEB EN LOS BUSCADORES!-->
+        <meta name="description" content="Sitio web para la asignatura 204035 programación web 1"><!--REALIZAR UNA DESCRIPCIÓN BREVE DE NUESTRO SITIO!-->
         <link rel="stylesheet" type="text/css" href="css/bootstrap4/bootstrap.min.css">
         <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/main_styles.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
     </head>
     <body>
-        <div class="super_container">
-            <!-- Home -->
-            <div class="home">
-                <!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-                <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="img/logo.jpg" data-speed="0.8"></div>
 
-                <!-- Header -->
 
-                <header class="header" id="header">
-                    <div>
-                        <div class="header_top">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="header_top_content d-flex flex-row align-items-center justify-content-start">
-                                            <div>
-                                                <a href="#">
-                                                    <div class="logo_container d-flex flex-row align-items-start justify-content-start">
-                                                        <div class="logo_image"><div><img src="img/logoblanco.png" alt=""></div></div>
-                                                        <div class="logo_content">
-                                                            <div id="logo_text" class="logo_text logo_text_not_ie">204035 Programación web 1</div>
-                                                        </div>
-                                                    </div>
-                                                </a>	
-                                            </div>
-                                            <div class="header_social ml-auto">
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+        <!-- Header -->
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="header_nav" id="header_nav_pin">
-                            <div class="header_nav_inner">
-                                <div class="header_nav_container">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
-                                                    <nav class="main_nav">
-                                                        <ul class="">
-                                                            <li ><a href="index.html">Inicio</a></li>
-                                                            <li class="active"><a href="#">Lecturas</a>
-                                                                <ul class="nav_sub">
-                                                                    <li class="active"><a href="lectura1.html">Lectura 1</a></li>
-                                                                    <li><a href="lectura2.html">Lectura 2</a></li>
-                                                                    <li><a href="lectura3.html">Lectura 3</a></li>
-                                                                    <li><a href="lectura4.html">Lectura 4</a></li>
-                                                                    <li><a href="lectura5.html#">Lectura 5</a></li>
-                                                                </ul>
-                                                            </li>
-
-                                                            <li><a href="#">Multimedia</a>
-                                                                <ul class="nav_sub">
-                                                                    <li><a href="multimedia1.html">Multimedia1</a></li>
-                                                                    <li><a href="multimedia2.html">Multimedia2</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li><a href="#">Actividades</a>
-                                                                <ul class="nav_sub">
-                                                                    <li><a href="actividad1.html">Actividades1</a></li>
-                                                                    <li><a href="actividad2.html">Actividades2</a></li>
-                                                                    <li><a href="actividad3.html">Actividades3</a></li>
-                                                                </ul>
-                                                            </li>
-
-                                                            <li><a href="autores.html">Autores</a></li>													
-                                                        </ul>
-                                                    </nav>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>	
-                    </div>
-                </header>
-
-                <div class="home_content_container">
+        <header class="header" id="header">
+            <div>
+                <div class="header_top">
                     <div class="container">
                         <div class="row">
                             <div class="col">
-
-                                <section id="ContenedorSection">
-                                    <article id="Contenedor1">
-                                        <h1>Información general del curso</h1>
-                                        <br>
-                                        <h3>Objetivo general</h3>
-                                        <br>
-                                        <p>Mostrar de manera didáctica e interactiva la manera de programar una web con PHP con conexión a MYSQL y su respectivo CRUD a través de un OVI</p>
-                                        <br>
-                                        <h3>Objetivos especificos</h3>
-                                        <br>
-                                        <ul>
-                                            <li>Explicar cómo crear una la base de datos en MYSQL</li>
-                                            <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
-                                            <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
-                                        </ul>
-                                        <br>
-                                        <br>
-                                        <br>
-                                    </article>
-                                </section>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <!-- Footer -->
-
-            <footer class="footer">
-                <div class="footer_content">
-                    <div class="container">
-                        <div class="row">					
-                            <!-- Footer Column -->
-                            <div class="col-lg-4 footer_col">
-                                <div class="footer_about">
+                                <div class="header_top_content d-flex flex-row align-items-center justify-content-start">
                                     <div>
                                         <a href="#">
                                             <div class="logo_container d-flex flex-row align-items-start justify-content-start">
                                                 <div class="logo_image"><div><img src="img/logoblanco.png" alt=""></div></div>
                                                 <div class="logo_content">
-                                                    <div id="logo_text" class="logo_text logo_text_not_ie">204035 Programación web 1</div>											
-                                                    <a href="https://www.contadorvisitasgratis.com" title="contador de visitas web"><img src="https://counter5.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=z4zt44fy778addzj41drqzh55jnpnzfr" border="0" title="contador de visitas web" alt="contador de visitas web"></a>                                               
+                                                    <div id="logo_text" class="logo_text logo_text_not_ie">204035 Programación web 1</div>
                                                 </div>
                                             </div>
                                         </a>	
-                                    </div>							
+                                    </div>
+                                    <div class="header_social ml-auto">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+
                                 </div>
-                            </div>		
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer_extra">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="footer_extra_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-start justify-content-center">
+                <div class="header_nav" id="header_nav_pin">
+                    <div class="header_nav_inner">
+                        <div class="header_nav_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+                                            <nav class="main_nav">
+                                                <ul class="">
+                                                    <li ><a href="index.html">Inicio</a></li>
+                                                    <li class="active"><a href="#">Lecturas</a>
+                                                        <ul class="nav_sub">
+                                                            <li class="active"><a href="lectura1.html">Lectura 1</a></li>
+                                                            <li><a href="lectura2.html">Lectura 2</a></li>
+                                                            <li><a href="lectura3.html">Lectura 3</a></li>
+                                                            <li><a href="lectura4.html">Lectura 4</a></li>
+                                                            <li><a href="lectura5.html#">Lectura 5</a></li>
+                                                        </ul>
+                                                    </li>
 
-                                    <div class="footer_extra_right ml-lg-auto text-lg-right">
+                                                    <li><a href="#">Multimedia</a>
+                                                        <ul class="nav_sub">
+                                                            <li><a href="multimedia1.html">Multimedia1</a></li>
+                                                            <li><a href="multimedia2.html">Multimedia2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Actividades</a>
+                                                        <ul class="nav_sub">
+                                                            <li><a href="actividad1.html">Actividades1</a></li>
+                                                            <li><a href="actividad2.html">Actividades2</a></li>
+                                                            <li><a href="actividad3.html">Actividades3</a></li>
+                                                        </ul>
+                                                    </li>
 
-                                        <div class="copyright">
-                                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>  Grupo 301122_40
+                                                    <li><a href="autores.html">Autores</a></li>													
+                                                </ul>
+                                            </nav>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-            </footer>
 
-        </div>
+                    </div>
+                </div>	
+            </div>
+        </header>
+
+        <section class="home_content_container">
+
+            <div class="container">
+            <div class="row">
+                <div class="col">
+
+
+                    <h1>Información general del curso</h1>
+                    <br>
+                    <h3>Objetivo general</h3>
+                    <br>
+                    <p>Mostrar de manera didáctica e interactiva la manera de programar una web con PHP con conexión a MYSQL y su respectivo CRUD a través de un OVI</p>
+                    <br>
+                    <h3>Objetivos especificos</h3>
+                    <br>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <ul>
+                        <li>Explicar cómo crear una la base de datos en MYSQL</li>
+                        <li>Explicar cómo se hace una conexión a la base de datos MYSQL desde PHP</li>
+                        <li>Mostrar de manera interactiva como hacer un CRUD con PHP y MYSQL</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_content">
+
+                <div class="row">					
+                    <!-- Footer Column -->
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_about">
+                            <div>
+                                <a href="#">
+                                    <div class="logo_container d-flex flex-row align-items-start justify-content-start">
+                                        <div class="logo_image"><div><img src="img/logoblanco.png" alt=""></div></div>
+                                        <div class="logo_content">
+                                            <div id="logo_text" class="logo_text logo_text_not_ie">204035 Programación web 1</div>											
+                                            <a href="https://www.contadorvisitasgratis.com" title="contador de visitas web"><img src="https://counter5.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=z4zt44fy778addzj41drqzh55jnpnzfr" border="0" title="contador de visitas web" alt="contador de visitas web"></a>
+                                        </div>
+                                    </div>
+                                </a>	
+                            </div>							
+                        </div>
+                    </div>		
+                </div>
+
+            </div>
+            <div class="footer_extra">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_extra_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-start justify-content-center">
+
+                            <div class="footer_extra_right ml-lg-auto text-lg-right">
+                                <div class="copyright">
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>  Grupo 301122_40
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </footer>
+
 
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/custom.js"></script>
