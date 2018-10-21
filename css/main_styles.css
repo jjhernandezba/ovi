@@ -219,7 +219,10 @@ section
 .super_container
 {
     width: 100%;
-    overflow: hidden;
+    /*height: 100%!important;*/
+    padding-bottom: 50x!important;
+    overflow: hidden ;
+    /*overflow-y: scroll;*/
 }
 .prlx_parent
 {
@@ -1348,6 +1351,8 @@ section
 
 .footer
 {
+    /*position:absolute!important;*/
+    height: 205px;
     width: 100%;
     background: #0c081d;	
     background: url(../img/FondoCompleto.jpeg);
