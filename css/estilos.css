@@ -90,13 +90,6 @@ img
   border: 1px solid black;
   border-radius: 10px /*AGREGAMOS UN EFECTO REDONDEADO A NUESTRAS IMAGENES*/
 }
-footer{
-  position: relative;
-  top: -700px;
-  width: 1400px;
-  background: url("../img/FondoCompleto.jpeg");
-  color: rgb(255, 255, 255);
-}
 #Barralateral{
 position: relative;
 left: 925px;
