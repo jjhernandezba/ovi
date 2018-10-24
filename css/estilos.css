@@ -3,7 +3,7 @@
   left: 180px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
   bottom: 190px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
   /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
-  width: 500px;
+  width: 600px;
 
 }
 #Autores #Pos_Relativo2{
@@ -18,14 +18,18 @@
 #Pos_Absoluto >h1{
   color: rgb(0, 57, 136);
   font-size: 20px;
+  padding-left: 90px;
+  width: 600px;
 }
 p{
   text-align: justify;
+  padding-left: 90px;
+  padding-bottom: 0px;
 }
 #Autores{
-padding-bottom: 50px;
+padding-bottom: 40px;
 padding-top: 0px;
-padding-left: 10px;
+padding-left: 100px;
 }
 
 #Contenedor #Pos_Relativo3{
@@ -50,8 +54,8 @@ padding-left: 10px;
   left: 180px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
   bottom: 70px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
   /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
-  width: 500px;
-  padding-bottom: 0px;
+  width: 600px;
+  padding-top: 10px;
   /*POSICIÓN ABSOLUTA: POSICIONA SIN OCUPAR ESPACIOS EN EL DOCUMENTOS, POR LO QUE AL DESPLAZARLO
   NO VAN A DEJAR ESPACIOS EN BLACO*/
 }
