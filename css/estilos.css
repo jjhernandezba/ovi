@@ -6,7 +6,7 @@
   width: 500px;
 
 }
-#Contenedor #Pos_Relativo2{
+#Autores #Pos_Relativo2{
   /*background: rgb(0, 92, 247);*/
   position: relative;
   top: -230px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
@@ -15,9 +15,17 @@
   /*bottom: 0px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
   /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
 }
-#Pos_Relativo >h1{
+#Pos_Absoluto >h1{
   color: rgb(0, 57, 136);
-  font-size: 24px;
+  font-size: 20px;
+}
+p{
+  text-align: justify;
+}
+#Autores{
+padding-bottom: 50px;
+padding-top: 0px;
+padding-left: 10px;
 }
 
 #Contenedor #Pos_Relativo3{
@@ -31,15 +39,19 @@
 }
 
 
-#Contenedor #Pos_Absoluto{
+#Autores #Pos_Absoluto{
   /*background: rgb(255, 0, 0);*/
   position: absolute;
-  left: 0px;/*DESPLAZO 265 PIXELES DESDE SU POSICIÓN ORIGINAL*/
-  right: -1000px;
+  /*left: 0px;/*DESPLAZO 265 PIXELES DESDE SU POSICIÓN ORIGINAL*/
+  /*right: -1000px;
   width: -250px;/*LE ASIGNO EL ANCHO*/
   margin: 0px; /*QUITO EL MARGIN QUE ESTA HEREDANDO PARA QUE SE VEA MAS CLARO QUE EL ELEMENOT NO OCUPA ESPACIOS
   SE PUEDE MOVER LIBREMENTE EN LA PAGINA SIN OCUPAR ESPACIO*/
-
+  left: 180px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+  bottom: 70px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
+  /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
+  width: 500px;
+  padding-bottom: 0px;
   /*POSICIÓN ABSOLUTA: POSICIONA SIN OCUPAR ESPACIOS EN EL DOCUMENTOS, POR LO QUE AL DESPLAZARLO
   NO VAN A DEJAR ESPACIOS EN BLACO*/
 }
