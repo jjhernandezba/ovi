@@ -1,8 +1,10 @@
 #Contenedor #Pos_Relativo{
   position: relative;
-  left: 0px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
-  bottom: 0px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
+  left: 180px;/*MUEVO LA CAJA 300 PIXELES DE IZQUIERDA A DERECHA*/
+  bottom: 190px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
   /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
+  width: 500px;
+
 }
 #Contenedor #Pos_Relativo2{
   /*background: rgb(0, 92, 247);*/
@@ -13,6 +15,11 @@
   /*bottom: 0px;/*MUEVO LA CAJA 45 PIXELES HACIA ARRIBA*/
   /*POSICIÓN RELATIVA: POSICIONA LA CAJA Y LA DESPLAZA DESDE SU POSICIONAMIENTO INICIAL*/
 }
+#Pos_Relativo >h1{
+  color: rgb(0, 57, 136);
+  font-size: 24px;
+}
+
 #Contenedor #Pos_Relativo3{
   color: rgb(255,255,255);
   position: relative;
@@ -60,7 +67,12 @@
   background: url("../img/FondoCompleto.jpeg");/*ASIGNO FONDO CON LA PROPIEDAD FIXED PARA QUE ESTE PERMANEZCA SIEMPRE EN PANTALLA*/
 }
 section >h1{
-  font-size: 25px;
+  font-size: 20px;
+}
+img
+{
+  border: 1px solid black;
+  border-radius: 10px /*AGREGAMOS UN EFECTO REDONDEADO A NUESTRAS IMAGENES*/
 }
 footer{
   position: relative;
